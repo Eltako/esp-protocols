@@ -1,6 +1,6 @@
 version: "1.3.2"
 description: mDNS
-url: https://github.com/espressif/esp-protocols/tree/master/components/mdns
+url: https://github.com/Eltako/esp-protocols/tree/bugfix/fix-mdns-nullptr-access/components/mdns
 dependencies:
   idf:
     version: ">=5.0"
