@@ -219,6 +219,11 @@ esp_err_t mdns_delegate_hostname_remove(const char *hostname);
 bool mdns_hostname_exists(const char *hostname);
 
 /**
+ * @brief Reannounce everything
+ */
+void mdns_restart_all_pcbs();
+
+/**
  * @brief  Set the default instance name for mDNS server
  *
  * @param  instance_name     Instance name to set

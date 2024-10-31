@@ -2565,6 +2565,13 @@ static void _mdns_restart_all_pcbs(void)
     _mdns_probe_all_pcbs(services, srv_count, true, true);
 }
 
+/**
+ * @brief  Send announcement on all active PCBs
+ */
+void mdns_restart_all_pcbs(void) {
+    _mdns_restart_all_pcbs();
+}
+
 
 
 /**
